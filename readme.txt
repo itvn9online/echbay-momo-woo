@@ -5,7 +5,7 @@ Plugin Facebook page: https://www.facebook.com/webgiare.org
 Author: Dao Quoc Dai
 Author URI: https://www.facebook.com/ech.bay
 Text Domain: echbaymomo
-Tags: woocommerce, momo, momo business, momo for vietnam dong, momo vietnam, woocommerce vietnam, momo woocommerce
+Tags: woocommerce, momo, momo business, MoMo paygate, momo for vietnam dong, momo vietnam, woocommerce vietnam, momo woocommerce
 Requires at least: 4.8
 Tested up to: 5.9
 Stable tag: 1.0.0
