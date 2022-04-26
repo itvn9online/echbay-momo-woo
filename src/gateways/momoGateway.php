@@ -16,8 +16,8 @@ class momoGateway extends\ WC_Payment_Gateway {
         $this->id = 'momo';
         //$this->icon = $this->get_option( 'logo' );
         if ( $this->get_option( 'show_logo' ) != 'no' ) {
-            //$this->icon = apply_filters( 'woocommerce_echbay_momo_icon', EB_MOMO_URL . '/images/logo.png' );
-            $this->icon = EB_MOMO_URL . '/images/logo.png';
+            //$this->icon = apply_filters( 'woocommerce_echbay_momo_icon', EB_MOMO_URL . '/images/momo_icon_square_pinkbg_RGB.png' );
+            $this->icon = EB_MOMO_URL . '/images/momo_icon_square_pinkbg_RGB.png';
         }
         $this->has_fields = false;
         $this->method_title = __( 'MoMo', 'woocommerce' );
@@ -82,7 +82,7 @@ class momoGateway extends\ WC_Payment_Gateway {
                 'title' => __( 'Tiêu đề', 'woocommerce' ),
                 'type' => 'text',
                 'description' => 'Tiêu đề thanh toán',
-                'default' => 'Thanh toán qua MoMo',
+                'default' => 'Thanh toán bằng ví MoMo',
                 'desc_tip' => true
             ),
             'description' => array(
@@ -233,7 +233,7 @@ class momoGateway extends\ WC_Payment_Gateway {
         //$extraData = sanitize_text_field( $_POST[ "extraData" ] );
 
         $requestId = time() . "";
-        $extraData = ( isset( $_POST[ "extraData" ] ) ? sanitize_text_field( $_POST[ "extraData" ]) : "" );
+        $extraData = ( isset( $_POST[ "extraData" ] ) ? sanitize_text_field( $_POST[ "extraData" ] ) : "" );
 
         //before sign HMAC SHA256 signature
         $rawHash = "accessKey=" . $accessKey . "&amount=" . $amount . "&extraData=" . $extraData . "&ipnUrl=" . $ipnUrl . "&orderId=" . $orderId . "&orderInfo=" . $orderInfo . "&partnerCode=" . $partnerCode . "&redirectUrl=" . $redirectUrl . "&requestId=" . $requestId . "&requestType=" . $requestType;

@@ -36,8 +36,8 @@ class ComposerStaticInit4mc3uo77pbgarf3eptgt05jqmd
 
     public static $classMap = array (
         'momo\\Facades\\FacadeResponse' => __DIR__ . '/../..' . '/src/FacadeResponse.php',
-        'momo\\Gateways\\momoGateway' => __DIR__ . '/../..' . '/src/gateways/international/momoGateway.php',
-        'momo\\Gateways\\momoInternationalResponse' => __DIR__ . '/../..' . '/src/gateways/international/momoInternationalResponse.php',
+        'momo\\Gateways\\momoGateway' => __DIR__ . '/../..' . '/src/gateways/momoGateway.php',
+        'momo\\Gateways\\momoInternationalResponse' => __DIR__ . '/../..' . '/src/gateways/momoInternationalResponse.php',
         'momo\\Page' => __DIR__ . '/../..' . '/src/Page.php',
         'momo\\Responses\\momoResponse' => __DIR__ . '/../..' . '/src/momoResponse.php',
         'momo\\Shortcodes\\Thankyou' => __DIR__ . '/../..' . '/src/shortcodes/Thankyou.php',
