@@ -1,0 +1,10 @@
+{
+	"autoload": {
+		"psr-4": {
+			"momo\\": "src",
+			"momo\\Gateways\\": "src/gateways",
+			"momo\\Shortcodes\\": "src/shortcodes",
+			"momo\\Traits\\": "src/traits"
+		}
+	}
+}
