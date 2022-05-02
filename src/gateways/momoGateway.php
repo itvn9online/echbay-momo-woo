@@ -89,7 +89,7 @@ class momoGateway extends\ WC_Payment_Gateway {
                 'title' => __( 'Mô tả', 'woocommerce' ),
                 'type' => 'textarea',
                 'description' => __( 'Mô tả phương thức thanh toán', 'woocommerce' ),
-                'default' => __( 'Thanh toán trực tuyến qua MoMo. Hỗ trợ nhiều ngân hàng và quét mã QR.', 'woocommerce' ),
+                'default' => __( 'Thanh toán trực tuyến qua ví MoMo. Hỗ trợ nhiều ngân hàng và quét mã QR tiện lợi, nhanh chóng.', 'woocommerce' ),
                 'desc_tip' => true
             ),
             'partner_code' => array(
