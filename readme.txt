@@ -7,7 +7,7 @@ Author URI: https://www.facebook.com/ech.bay
 Text Domain: echbaymomo
 Tags: woocommerce, momo, momo business, MoMo paygate, momo for vietnam dong, momo vietnam, woocommerce vietnam, momo woocommerce
 Requires at least: 4.8
-Tested up to: 5.9
+Tested up to: 6.0
 Stable tag: 1.0.0
 Version: 1.0.0
 Contributors: itvn9online
