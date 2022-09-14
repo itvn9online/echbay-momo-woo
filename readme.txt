@@ -8,8 +8,8 @@ Text Domain: echbaymomo
 Tags: woocommerce, momo, momo business, MoMo paygate, momo for vietnam dong, momo vietnam, woocommerce vietnam, momo woocommerce
 Requires at least: 4.8
 Tested up to: 6.0
-Stable tag: 1.0.0
-Version: 1.0.0
+Stable tag: 1.0.1
+Version: 1.0.1
 Contributors: itvn9online
 Donate link: https://paypal.me/itvn9online/5
 License: GPLv2 or later
@@ -42,3 +42,6 @@ Momo là dịch vụ thanh toán, chuyển tiền nhanh chóng tiện lợi, h�
 
 = Version 1.0.0 =
 * None
+
+= Version 1.0.1 =
+* Fixed namepace

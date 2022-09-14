@@ -2,7 +2,7 @@
 /**
  * Plugin Name: EchBay Integrate MoMo paygate into WooCommerce
  * Description: Integrate MoMo paygate into WooCommerce - Tích hợp cổng thanh toán MoMo vào website sử dụng WooCommerce
- * Version: 1.0.0
+ * Version: 1.0.1
  * Plugin URI: https://echbay.com/
  * Plugin Facebook page: https://www.facebook.com/webgiare.org
  * Author: Dao Quoc Dai
