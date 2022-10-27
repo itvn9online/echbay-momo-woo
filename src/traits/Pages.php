@@ -5,9 +5,10 @@
  * @since  1.0.1
  */
 
-namespace momo\ Traits;
+namespace momo\Traits;
 
-trait Pages {
+trait Pages
+{
     protected $pages = array(
         'thank-you' => array(
             'post_type' => 'page',

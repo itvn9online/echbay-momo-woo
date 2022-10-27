@@ -1,20 +1,20 @@
 <?php
-
 /**
  * 
  * @author daidq - itvn9online@gmail.com
  * @since  1.0.2
  */
 
-namespace momo\ Facades;
+namespace momo\Facades;
 
-interface FacadeResponse {
+interface FacadeResponse
+{
 
-    public function getResponseDescription( $responseCode );
+    public function getResponseDescription($responseCode);
 
-    public function checkResponse( $txnResponseCode );
+    public function checkResponse($txnResponseCode);
 
-    public function ipn_url_momo( $txnResponfseCode );
+    public function ipn_url_momo($txnResponfseCode);
 
-    public function getOrder( $orderId );
+    public function getOrder($orderId);
 }

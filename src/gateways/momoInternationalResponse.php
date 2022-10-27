@@ -1,5 +1,4 @@
 <?php
-
 /**
  * 
  * 
@@ -7,19 +6,22 @@
  * @since  1.0.2
  */
 
-namespace momo\ Gateways;
+namespace momo\Gateways;
 
-use momo\ Responses\ momoResponse;
-use momo\ Gateways\ momoGateway;
+use momo\Responses\momoResponse;
+use momo\Gateways\momoGateway;
 
-class momoInternationalResponse extends momoResponse {
+class momoInternationalResponse extends momoResponse
+{
 
-    public function __construct() {
+    public function __construct()
+    {
         parent::__construct();
     }
 
-    public function getResponseDescription( $responseCode = -1 ) {
-        if ( $responseCode * 1 === 0 ) {
+    public function getResponseDescription($responseCode = -1)
+    {
+        if ($responseCode * 1 === 0) {
             $result = "Giao dịch thanh toán thành công qua MoMo";
         } else {
             $result = "Giao dịch không thành công";
@@ -29,9 +31,10 @@ class momoInternationalResponse extends momoResponse {
     }
 
 
-    public function thankyou() {
+    public function thankyou()
+    {
         $gateway = new momoGateway;
-        return $gateway->get_option( 'receipt_return_url' );
+        return $gateway->get_option('receipt_return_url');
     }
 
 

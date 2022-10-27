@@ -1,5 +1,4 @@
 <?php
-
 /**
  * 
  * 
@@ -7,10 +6,10 @@
  * @since  1.0.2
  */
 
-namespace momo\ Responses;
+namespace momo\Responses;
 
-use momo\ Gateways\ momoGateway;
-use momo\ Facades\ FacadeResponse;
+use momo\Gateways\momoGateway;
+use momo\Facades\FacadeResponse;
 
 abstract class momoResponse
 implements FacadeResponse {
@@ -118,8 +117,8 @@ implements FacadeResponse {
         // ->
         $partnerSignature = hash_hmac( "sha256", $rawHash, $secretKey );
 
-        //echo "<script>console.log('Debug huhu Objects: " . $rawHash . "' );</script>";
-        //echo "<script>console.log('Debug huhu Objects: " . $partnerSignature . "' );</script>";
+        //echo "<script>console.log('Debug huhu Objects: " . $rawHash . "');</script>";
+        //echo "<script>console.log('Debug huhu Objects: " . $partnerSignature . "');</script>";
 
         //
         $returnData = [];
@@ -286,7 +285,7 @@ implements FacadeResponse {
 
     public function getOrder( $orderId ) {
         preg_match_all( '!\d+!', $orderId, $matches );
-        $order = new\ WC_Order( $matches[ 0 ][ 0 ] );
+        $order = new \WC_Order( $matches[ 0 ][ 0 ] );
         return $order;
     }
 
